@@ -17,4 +17,21 @@ public class EstadoInventarioServiceImpl implements EstadoInventarioService{
     public List<EstadoInventario> findAll() {
         return (List<EstadoInventario>) estadoInventarioDao.findAll();
     }
+
+    @Override
+    public EstadoInventario findById(Long id) {
+        return estadoInventarioDao.findById(id).orElse(null);
+    }
+
+    @Override
+    public EstadoInventario save(EstadoInventario estadoInventario) {
+        return estadoInventarioDao.save(estadoInventario) ;
+    }
+
+    @Override
+    public void delete(Long id) {
+        estadoInventarioDao.deleteById(id);
+    }
+
+
 }

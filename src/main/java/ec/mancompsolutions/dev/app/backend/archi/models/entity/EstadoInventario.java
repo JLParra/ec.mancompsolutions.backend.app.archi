@@ -26,6 +26,15 @@ public class EstadoInventario {
     @Column(name = "dat_update")
     private LocalDateTime fechaActualizacion;
 
+    @PrePersist
+    private void asignarFechaCreacion() {
+        fechaCreacion = LocalDateTime.now();
+    }
+    @PreUpdate
+    private void asignarFechaActualizacion() {
+        fechaActualizacion = LocalDateTime.now();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
