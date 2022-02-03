@@ -18,6 +18,7 @@ public class EstadoInventario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "uid_edii")
     private Long id;
+    @Column(nullable = false, unique = true)
     private String nombre;
     @Column(name = "dsc_edfo")
     private String descripcion;
