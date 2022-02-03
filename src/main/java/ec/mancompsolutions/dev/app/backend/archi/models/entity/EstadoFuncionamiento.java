@@ -18,6 +18,7 @@ public class EstadoFuncionamiento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "uid_edfo")
     private Long id;
+    @Column(nullable = false, unique = true)
     private String nombre;
     @Column(name = "dsc_edfo")
     private String descripcion;
