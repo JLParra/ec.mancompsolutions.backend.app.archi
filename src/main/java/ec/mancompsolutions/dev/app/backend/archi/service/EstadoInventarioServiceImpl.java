@@ -16,4 +16,6 @@ public class EstadoInventarioServiceImpl extends BaseServiceImpl<EstadoInventari
     public EstadoInventarioServiceImpl(BaseRepository<EstadoInventario, Long> baseRepository) {
         super(baseRepository);
     }
+
+
 }
