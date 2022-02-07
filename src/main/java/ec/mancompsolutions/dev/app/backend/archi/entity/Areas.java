@@ -14,12 +14,10 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "SCRS")
-public class Sucursales extends BaseEntity{
+@Table(name = "AREA")
+public class Areas extends BaseEntity{
 
     @Column(nullable = false, unique = true)
     private String nombre;
-    @Column(nullable = false)
-    private String direccion;
 
 }
