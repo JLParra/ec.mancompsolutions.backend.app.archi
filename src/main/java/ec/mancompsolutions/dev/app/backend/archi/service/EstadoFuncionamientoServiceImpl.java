@@ -12,23 +12,5 @@ public class EstadoFuncionamientoServiceImpl implements EstadoFuncionamientoServ
     @Autowired
     private EstadoFuncionamientoDao estadoFuncionamientoDao;
 
-    @Override
-    public List<EstadoFuncionamiento> findAll() {
-        return (List<EstadoFuncionamiento>) estadoFuncionamientoDao.findAll();
-    }
 
-    @Override
-    public EstadoFuncionamiento findById(Long id) {
-        return estadoFuncionamientoDao.findById(id).orElse(null);
-    }
-
-    @Override
-    public EstadoFuncionamiento save(EstadoFuncionamiento estadoFuncionamiento) {
-        return estadoFuncionamientoDao.save(estadoFuncionamiento);
-    }
-
-    @Override
-    public void delete(Long id) {
-        estadoFuncionamientoDao.deleteById(id);
-    }
 }
