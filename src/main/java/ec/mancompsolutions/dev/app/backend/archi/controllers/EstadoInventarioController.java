@@ -1,7 +1,6 @@
 package ec.mancompsolutions.dev.app.backend.archi.controllers;
 
 import ec.mancompsolutions.dev.app.backend.archi.entity.EstadoInventario;
-import ec.mancompsolutions.dev.app.backend.archi.service.EstadoInventarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
