@@ -1,6 +1,6 @@
-package ec.mancompsolutions.dev.app.backend.archi.models.services;
+package ec.mancompsolutions.dev.app.backend.archi.service;
 
-import ec.mancompsolutions.dev.app.backend.archi.models.entity.EstadoInventario;
+import ec.mancompsolutions.dev.app.backend.archi.entity.EstadoInventario;
 import java.util.List;
 
 public interface EstadoInventarioService {

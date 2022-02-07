@@ -1,4 +1,4 @@
-package ec.mancompsolutions.dev.app.backend.archi.models.entity;
+package ec.mancompsolutions.dev.app.backend.archi.entity;
 
 import lombok.*;
 import org.hibernate.Hibernate;
@@ -12,11 +12,11 @@ import java.util.Objects;
 @ToString
 @RequiredArgsConstructor
 @Entity
-@Table(name = "EDFO")
-public class EstadoFuncionamiento {
+@Table(name = "EDII")
+public class EstadoInventario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "uid_edfo")
+    @Column(name = "uid_edii")
     private Long id;
     @Column(nullable = false, unique = true)
     private String nombre;
@@ -40,7 +40,7 @@ public class EstadoFuncionamiento {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        EstadoFuncionamiento that = (EstadoFuncionamiento) o;
+        EstadoInventario that = (EstadoInventario) o;
         return id != null && Objects.equals(id, that.id);
     }
 

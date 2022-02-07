@@ -1,7 +1,7 @@
 package ec.mancompsolutions.dev.app.backend.archi.controllers;
 
-import ec.mancompsolutions.dev.app.backend.archi.models.entity.EstadoFuncionamiento;
-import ec.mancompsolutions.dev.app.backend.archi.models.services.EstadoFuncionamientoService;
+import ec.mancompsolutions.dev.app.backend.archi.entity.EstadoFuncionamiento;
+import ec.mancompsolutions.dev.app.backend.archi.service.EstadoFuncionamientoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
