@@ -1,6 +1,6 @@
 package ec.mancompsolutions.dev.app.backend.archi.service;
 
-import ec.mancompsolutions.dev.app.backend.archi.repository.EstadoInventarioDao;
+import ec.mancompsolutions.dev.app.backend.archi.repository.EstadoInventarioRepository;
 import ec.mancompsolutions.dev.app.backend.archi.entity.EstadoInventario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,7 +11,7 @@ import java.util.List;
 public class EstadoInventarioServiceImpl implements EstadoInventarioService{
 
     @Autowired
-    private EstadoInventarioDao estadoInventarioDao;
+    private EstadoInventarioRepository estadoInventarioDao;
 
     @Override
     public List<EstadoInventario> findAll() {
