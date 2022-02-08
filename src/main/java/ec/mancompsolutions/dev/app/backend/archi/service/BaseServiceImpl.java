@@ -1,7 +1,6 @@
 package ec.mancompsolutions.dev.app.backend.archi.service;
 
 import ec.mancompsolutions.dev.app.backend.archi.entity.BaseEntity;
-import ec.mancompsolutions.dev.app.backend.archi.entity.EstadoFuncionamiento;
 import ec.mancompsolutions.dev.app.backend.archi.repository.BaseRepository;
 
 import javax.transaction.Transactional;

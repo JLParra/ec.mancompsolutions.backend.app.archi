@@ -1,0 +1,126 @@
+
+[
+    {
+        "nombre":"Bodega ME",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Bodega MP",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Bodega PT",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Compras",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Contabilidad",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Control de Calidad",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Desarrollo",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Diseno",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Facturación",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Garita",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Gerencia Comercial",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Gerencia General",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Gerencia Planta",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Mantenimiento",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Presidencia",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Producción Cosmética",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Producción Farmacéutica",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Recepción",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Sistemas",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+    {
+        "nombre":"Ventas",
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    }
+]
+
+
+

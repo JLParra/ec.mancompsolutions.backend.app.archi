@@ -22,12 +22,20 @@ public class Empresa extends BaseEntity{
     @Column(nullable = false, unique = true)
     private String NombreComercial;
 
-    @OneToMany(cascade = CascadeType.ALL,orphanRemoval = false)
+    @OneToMany(cascade = CascadeType.ALL)
     @JoinTable(
-            name = "empresa_sucursal",
-            joinColumns = @JoinColumn(name = "empresa_id"),
-            inverseJoinColumns = @JoinColumn(name = "sucursal_id")
+            name = "eprs_scrs",
+            joinColumns = @JoinColumn(name = "eprs_id"),
+            inverseJoinColumns = @JoinColumn(name = "scrs_id")
     )
-    private List<Sucursal> sucursales = new ArrayList<Sucursal>();
+    private List<Sucursal> sucursales = new ArrayList<>();
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "id_edfo")
+    private EstadoFuncionamiento estadoFuncionamiento;
+
+
+
+
 
 }

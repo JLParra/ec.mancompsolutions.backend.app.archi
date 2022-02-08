@@ -21,12 +21,16 @@ public class Sucursal extends BaseEntity{
     private String nombre;
     @Column(nullable = false)
     private String direccion;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.MERGE)
     @JoinTable(
-            name = "sucursal_area",
-            joinColumns = @JoinColumn(name = "sucursal_id"),
+            name = "scrs_area",
+            joinColumns = @JoinColumn(name = "scrs_id"),
             inverseJoinColumns = @JoinColumn(name = "area_id")
     )
-    private List<Area> areas = new ArrayList<Area>();
+    private List<Area> areas = new ArrayList<>();
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "id_edfo")
+    private EstadoFuncionamiento estadoFuncionamiento;
 
 }

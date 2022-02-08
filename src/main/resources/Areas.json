@@ -1,0 +1,292 @@
+[
+    {
+        "nombre": "Administración",
+        "departamentos": [
+            {
+                "id": 4,
+                "fechaCreacion": "2022-02-08T10:03:01.581405",
+                "fechaActualizacion": null,
+                "nombre": "Compras",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 5,
+                "fechaCreacion": "2022-02-08T10:03:07.351582",
+                "fechaActualizacion": null,
+                "nombre": "Contabilidad",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 8,
+                "fechaCreacion": "2022-02-08T10:03:24.685815",
+                "fechaActualizacion": null,
+                "nombre": "Diseno",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 9,
+                "fechaCreacion": "2022-02-08T10:03:29.212784",
+                "fechaActualizacion": null,
+                "nombre": "Dispensario Médico",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 10,
+                "fechaCreacion": "2022-02-08T10:03:36.143785",
+                "fechaActualizacion": null,
+                "nombre": "Facturación",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },{
+                "id": 19,
+                "fechaCreacion": "2022-02-08T10:04:43.841239",
+                "fechaActualizacion": null,
+                "nombre": "Recepción",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 20,
+                "fechaCreacion": "2022-02-08T10:04:48.407807",
+                "fechaActualizacion": null,
+                "nombre": "Sistemas",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 21,
+                "fechaCreacion": "2022-02-08T10:04:54.991382",
+                "fechaActualizacion": null,
+                "nombre": "Ventas",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+
+    {
+        "nombre": "Bodega",
+        "departamentos": [
+            {
+                "id": 1,
+                "fechaCreacion": "2022-02-08T10:02:39.088813",
+                "fechaActualizacion": null,
+                "nombre": "Bodega ME",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 2,
+                "fechaCreacion": "2022-02-08T10:02:45.996486",
+                "fechaActualizacion": null,
+                "nombre": "Bodega MP",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 3,
+                "fechaCreacion": "2022-02-08T10:02:55.148554",
+                "fechaActualizacion": null,
+                "nombre": "Bodega PT",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+
+    {
+        "nombre": "Gerencia",
+        "departamentos": [
+            {
+                "id": 12,
+                "fechaCreacion": "2022-02-08T10:03:45.841589",
+                "fechaActualizacion": null,
+                "nombre": "Gerencia Comercial",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 13,
+                "fechaCreacion": "2022-02-08T10:03:53.777791",
+                "fechaActualizacion": null,
+                "nombre": "Gerencia General",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },
+            {
+                "id": 14,
+                "fechaCreacion": "2022-02-08T10:03:59.576112",
+                "fechaActualizacion": null,
+                "nombre": "Gerencia Planta",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            },{
+                "id": 16,
+                "fechaCreacion": "2022-02-08T10:04:14.675109",
+                "fechaActualizacion": null,
+                "nombre": "Presidencia",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+
+    {
+        "nombre": "Planta Cosmética",
+        "departamentos": [
+            {
+                "id": 17,
+                "fechaCreacion": "2022-02-08T10:04:20.458303",
+                "fechaActualizacion": null,
+                "nombre": "Producción Cosmética",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+
+    {
+        "nombre": "Planta Farmacéutica",
+        "departamentos": [
+            {
+                "id": 18,
+                "fechaCreacion": "2022-02-08T10:04:35.403232",
+                "fechaActualizacion": null,
+                "nombre": "Producción Farma",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    },
+
+    {
+        "nombre": "Seguridad",
+        "departamentos": [
+            {
+                "id": 11,
+                "fechaCreacion": "2022-02-08T10:03:41.627078",
+                "fechaActualizacion": null,
+                "nombre": "Garita",
+                "estadoFuncionamiento": {
+                    "id": 1,
+                    "fechaCreacion": "2022-02-08T09:54:48.38012",
+                    "fechaActualizacion": null,
+                    "nombre": "Activo",
+                    "descripcion": "El activo esta operativo"
+                }
+            }
+        ],
+        "estadoFuncionamiento": {
+            "id": 1
+        }
+    }
+]
+

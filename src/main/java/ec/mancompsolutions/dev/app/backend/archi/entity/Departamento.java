@@ -19,4 +19,7 @@ public class Departamento extends BaseEntity{
     @Column(nullable = false, unique = true)
     private String nombre;
 
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "id_edfo")
+    private EstadoFuncionamiento estadoFuncionamiento;
 }

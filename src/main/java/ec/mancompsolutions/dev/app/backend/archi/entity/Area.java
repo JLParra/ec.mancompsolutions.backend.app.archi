@@ -20,11 +20,15 @@ public class Area extends BaseEntity{
     @Column(nullable = false, unique = true)
     private String nombre;
 
-    @OneToMany(cascade = CascadeType.ALL,orphanRemoval = false)
+    @OneToMany(cascade = CascadeType.MERGE,fetch = FetchType.LAZY)
     @JoinTable(
-            name = "area_departamento",
+            name = "area_epts",
             joinColumns = @JoinColumn(name = "area_id"),
-            inverseJoinColumns = @JoinColumn(name = "departamento_id")
+            inverseJoinColumns = @JoinColumn(name = "epts_id")
     )
-    private List<Departamento> departamentos = new ArrayList<Departamento>();
+    private List<Departamento> departamentos  = new ArrayList<>();
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "id_edfo")
+    private EstadoFuncionamiento estadoFuncionamiento;
 }
