@@ -69,16 +69,16 @@
       "id": 1
     }
   },
-  {
-    "nombre": "Tungurahua",
-    "capital": "Ambato",
-    "pais": {
-      "id": 1
+    {
+      "nombre": "Tungurahua",
+      "capital": "Ambato",
+      "pais": {
+        "id": 1
+      },
+      "estadoFuncionamiento": {
+        "id": 1
+      }
     },
-    "estadoFuncionamiento": {
-      "id": 1
-    }
-  },
   {
     "nombre": "Esmeraldas",
     "capital": "Esmeraldas",
