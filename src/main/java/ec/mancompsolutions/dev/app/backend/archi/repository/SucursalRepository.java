@@ -1,7 +1,6 @@
 package ec.mancompsolutions.dev.app.backend.archi.repository;
 
 
-import ec.mancompsolutions.dev.app.backend.archi.entity.Area;
 import ec.mancompsolutions.dev.app.backend.archi.entity.Sucursal;
 import org.springframework.stereotype.Repository;
 

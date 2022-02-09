@@ -1,0 +1,242 @@
+[
+  {
+    "nombre": "Guayas",
+    "capital": "Guayaquil",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Pichincha",
+    "capital": "Quito",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Azuay",
+    "capital": "Cuenca",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Santo Domingo de los Tsáchilas",
+    "capital": "Santo Domingo",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "El Oro",
+    "capital": "Machala",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Manabí",
+    "capital": "Portoviejo",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Loja",
+    "capital": "Loja",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Tungurahua",
+    "capital": "Ambato",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Esmeraldas",
+    "capital": "Esmeraldas",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Los Ríos",
+    "capital": "Babahoyo",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Chimborazo",
+    "capital": "Riobamba",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Imbabura",
+    "capital": "Ibarra",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Santa Elena",
+    "capital": "Santa Elena",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Cotopaxi",
+    "capital": "Latacunga",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Carchi",
+    "capital": "Latacunga",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Sucumbíos",
+    "capital": " Nueva Loja",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Orellana",
+    "capital": "Francisco de Orellana",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Cañar",
+    "capital": "Azogues",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Pastaza",
+    "capital": "Puyo",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Bolívar",
+    "capital": "Guaranda",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Napo",
+    "capital": "Tena",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Morona Santiago",
+    "capital": "Macas",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Zamora Chinchipe",
+    "capital": "Macas",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  },
+  {
+    "nombre": "Galápagos",
+    "capital": "Puerto Baquerizo Moreno",
+    "pais": {
+      "id": 1
+    },
+    "estadoFuncionamiento": {
+      "id": 1
+    }
+  }
+]
