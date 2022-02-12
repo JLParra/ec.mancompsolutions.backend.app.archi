@@ -16,8 +16,6 @@ import java.util.Objects;
 @Table(name = "EDII")
 public class EstadoInventario extends BaseEntity {
 
-    @Column(nullable = false, unique = true)
-    private String nombre;
     @Column(name = "dsc_edfo")
     private String descripcion;
 

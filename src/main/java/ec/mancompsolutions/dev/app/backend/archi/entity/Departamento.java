@@ -16,8 +16,6 @@ import java.util.List;
 @Entity
 @Table(name = "EPTS")
 public class Departamento extends BaseEntity{
-    @Column(nullable = false, unique = true)
-    private String nombre;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_edfo")

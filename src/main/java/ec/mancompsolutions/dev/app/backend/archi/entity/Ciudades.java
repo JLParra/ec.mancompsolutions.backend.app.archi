@@ -14,8 +14,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "ciudades")
 public class Ciudades extends BaseEntity {
-    @Column(nullable = false, unique = true)
-    private String nombre;
 
     @OneToOne()
     @JoinColumn(name = "id_provincia")

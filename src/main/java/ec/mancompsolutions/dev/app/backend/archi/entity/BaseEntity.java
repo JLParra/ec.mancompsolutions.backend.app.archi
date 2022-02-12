@@ -20,6 +20,9 @@ public class BaseEntity implements Serializable {
     @Column()
     private Long id;
 
+    @Column(nullable = false, unique = true)
+    private String nombre;
+
     @Column(name = "dat_crea")
     private LocalDateTime fechaCreacion;
     @Column(name = "dat_update")

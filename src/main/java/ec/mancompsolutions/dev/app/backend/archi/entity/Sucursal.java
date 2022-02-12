@@ -17,8 +17,7 @@ import java.util.List;
 @Table(name = "SCRS")
 public class Sucursal extends BaseEntity{
 
-    @Column(nullable = false, unique = true)
-    private String nombre;
+
     @Column(nullable = false)
     private String direccion;
     @OneToMany(cascade = CascadeType.MERGE)

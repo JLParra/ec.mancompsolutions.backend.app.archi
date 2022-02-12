@@ -18,8 +18,6 @@ import java.util.List;
 public class Empresa extends BaseEntity{
 
     @Column(nullable = false, unique = true)
-    private String RazonSocial;
-    @Column(nullable = false, unique = true)
     private String NombreComercial;
 
     @OneToMany(cascade = CascadeType.ALL)

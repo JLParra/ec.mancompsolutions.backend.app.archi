@@ -1,6 +1,7 @@
 package ec.mancompsolutions.dev.app.backend.archi.service;
 
 import ec.mancompsolutions.dev.app.backend.archi.entity.BaseEntity;
+import ec.mancompsolutions.dev.app.backend.archi.entity.Paises;
 import ec.mancompsolutions.dev.app.backend.archi.repository.BaseRepository;
 
 import javax.transaction.Transactional;
@@ -20,6 +21,10 @@ public abstract class BaseServiceImpl<E extends BaseEntity, ID extends Serializa
     public List<E> findAll() {
         return (List<E>) baseRepository.findAll();
     }
+
+    @Override
+    @Transactional
+    public List<E> findByNombre(String nombre){return (List<E>) baseRepository.findByNombre(nombre);};
 
     @Override
     @Transactional

@@ -21,6 +21,11 @@ public abstract class BaseControllerImpl<E extends BaseEntity, S extends BaseSer
         return servicio.findAll();
     }
 
+    @GetMapping("/buscarpornombre/{nombre}")
+    public List<E> findbyName(@PathVariable String nombre) {
+        return servicio.findByNombre("Ecuador");
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<?> getOne(@PathVariable Long id) {
         E entity;
@@ -74,8 +79,6 @@ public abstract class BaseControllerImpl<E extends BaseEntity, S extends BaseSer
         return new ResponseEntity<>(response, HttpStatus.CREATED);
 
     }
-
-
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> delete(@PathVariable Long id) {

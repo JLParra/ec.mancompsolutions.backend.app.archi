@@ -14,8 +14,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "provincia")
 public class Provincia extends BaseEntity {
-    @Column(nullable = false, unique = true)
-    private String nombre;
+
     @Column(nullable = false)
     private String capital;
 

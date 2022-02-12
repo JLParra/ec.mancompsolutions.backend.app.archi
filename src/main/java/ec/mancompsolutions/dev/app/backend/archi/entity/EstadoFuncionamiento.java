@@ -17,8 +17,6 @@ import java.util.Objects;
 @Table(name = "EDFO")
 public class EstadoFuncionamiento extends BaseEntity {
 
-    @Column(nullable = false, unique = true)
-    private String nombre;
     @Column(name = "dsc_edfo")
     private String descripcion;
 }
