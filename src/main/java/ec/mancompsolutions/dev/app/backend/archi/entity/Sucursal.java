@@ -28,6 +28,10 @@ public class Sucursal extends BaseEntity{
     )
     private List<Area> areas = new ArrayList<>();
 
+    @OneToOne()
+    @JoinColumn(name = "id_ciudad")
+    private Ciudades ciudad;
+
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_edfo")
     private EstadoFuncionamiento estadoFuncionamiento;

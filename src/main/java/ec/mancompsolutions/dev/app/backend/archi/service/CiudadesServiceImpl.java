@@ -15,4 +15,9 @@ public class CiudadesServiceImpl extends BaseServiceImpl<Ciudades,Long> implemen
     public CiudadesServiceImpl(BaseRepository<Ciudades, Long> baseRepository) {
         super(baseRepository);
     }
+
+    @Override
+    public long countByestadoFuncionamiento(Long estado) {
+        return ciudadesRepository.countByEstadoFuncionamiento(estado);
+    }
 }

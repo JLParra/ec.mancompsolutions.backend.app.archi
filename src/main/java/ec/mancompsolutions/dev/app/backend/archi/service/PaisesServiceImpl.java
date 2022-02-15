@@ -17,5 +17,8 @@ public class PaisesServiceImpl extends BaseServiceImpl<Paises, Long> implements 
     public PaisesServiceImpl(BaseRepository<Paises, Long> baseRepository) {
         super(baseRepository);
     }
-
+    @Override
+    public long countByestadoFuncionamiento(Long estado) {
+        return paisesRepository.countByEstadoFuncionamiento(estado);
+    }
 }

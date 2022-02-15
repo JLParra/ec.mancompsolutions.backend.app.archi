@@ -10,4 +10,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/mundo/paises")
 public class PaisesController extends BaseControllerImpl<Paises, PaisesServiceImpl>{
+    @GetMapping("/count/{estado}")
+    public long countByEstadoFuncionamiento(@PathVariable long estado) {
+        return servicio.countByestadoFuncionamiento(estado);
+    }
 }

@@ -4,5 +4,5 @@ import ec.mancompsolutions.dev.app.backend.archi.entity.Ciudades;
 
 
 public interface CiudadesService extends BaseService<Ciudades,Long> {
-
+    long countByestadoFuncionamiento(Long estado);
 }

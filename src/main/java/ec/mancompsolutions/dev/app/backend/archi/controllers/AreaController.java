@@ -11,4 +11,5 @@ import java.util.List;
 @RequestMapping("/api/areas")
 public class AreaController extends BaseControllerImpl<Area, AreaServiceImpl>{
 
+
 }
