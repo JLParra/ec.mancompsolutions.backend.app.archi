@@ -24,7 +24,7 @@ public abstract class BaseServiceImpl<E extends BaseEntity, ID extends Serializa
 
     @Override
     @Transactional
-    public List<E> findByNombre(String nombre){return (List<E>) baseRepository.findByNombre(nombre);};
+    public List<E> findByNombreContaining(String nombre){return (List<E>) baseRepository.findByNombreContaining(nombre);};
 
     @Override
     @Transactional

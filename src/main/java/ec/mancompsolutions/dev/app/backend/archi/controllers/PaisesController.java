@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/paises")
+@RequestMapping("/api/mundo/paises")
 public class PaisesController extends BaseControllerImpl<Paises, PaisesServiceImpl>{
 }

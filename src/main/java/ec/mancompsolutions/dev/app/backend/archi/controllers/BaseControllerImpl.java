@@ -22,8 +22,8 @@ public abstract class BaseControllerImpl<E extends BaseEntity, S extends BaseSer
     }
 
     @GetMapping("/buscarpornombre/{nombre}")
-    public List<E> findbyName(@PathVariable String nombre) {
-        return servicio.findByNombre("Ecuador");
+    public List<E> findByNombreContaining(@PathVariable String nombre) {
+        return servicio.findByNombreContaining(nombre);
     }
 
     @GetMapping("/{id}")

@@ -11,8 +11,4 @@ import java.util.List;
 @RequestMapping("/api/areas")
 public class AreaController extends BaseControllerImpl<Area, AreaServiceImpl>{
 
-    @Override
-    public List<Area> findbyName(String nombre) {
-        return null;
-    }
 }

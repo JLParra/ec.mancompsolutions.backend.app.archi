@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/ciudades")
+@RequestMapping("/api/mundo/ciudades")
 public class CiudadesController extends BaseControllerImpl<Ciudades, CiudadesServiceImpl>{
 
 }

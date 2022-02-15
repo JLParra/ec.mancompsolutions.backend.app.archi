@@ -10,5 +10,5 @@ import java.util.List;
 
 @NoRepositoryBean /* permite que de esta interface no se creen instancias */
 public interface BaseRepository <E extends BaseEntity, ID extends Serializable> extends JpaRepository<E,ID> {
-    List<E> findByNombre(String nombre);
+    List<E> findByNombreContaining(String nombre);
 }

@@ -10,7 +10,7 @@ import java.util.List;
 public interface BaseController <E extends BaseEntity, ID extends Serializable>{
     public List<E> getAll() ;
 
-    public List<E> findbyName(@PathVariable String nombre);
+    public List<E> findByNombreContaining(@PathVariable String nombre);
 
     public ResponseEntity<?> getOne(@PathVariable ID id);
 
